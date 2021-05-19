@@ -103,16 +103,10 @@
     let $convertFrom = $('#cf');
     let $convertTo = $('#ct');
     $('#convert').on('click', function() {
-
+        $('#convert').prop('disabled', true);
         const betCode = $code.val();
         const cF = $convertFrom.val();
         const cT = $convertTo.val();
-
-        const _body = {
-            code: betCode,
-            from: cF,
-            to: cT
-        };
 
         $('#error').text(" ")
         $('#games').text(" ")
@@ -120,44 +114,53 @@
         $('#response').text(" ")
         $('#status').text(" ")
         $('#bcode').text(" ")
-        const socket = io("https://bet-converter.herokuapp.com/", { reconnection: false }, { reconnectionDelay: 100000 }, { transports: ['websocket'] }, { forceNew: false }, {
-            reconnectionDelayMax: 100000,
-        });
 
-        socket.on('connect', function() {
-            $('.loading-icon').removeClass('hide');
-            $('#convert').attr("disabled", true);
-            $('.cbp').text("Converting Code...");
-            socket.emit('my event', _body);
-        })
-        socket.on('error', function(data) {
-            $('#error').html('<b>Error:</b> ' + data['error'])
-            $('.loading-icon').addClass('hide')
-            $('#convert').attr("disabled", false);
-            $('.cbp').text("Convert Code");
-        })
-        socket.on('game', function(data) {
-            $('#games').html('<b>Total Number of Games</b>: ' + data['game'])
-        })
-        socket.on('my response', function(data) {
-            $('#status').html(" ")
-            $('#response').html('<b> Game: </b>' + data['my response'])
-        })
-        socket.on('status', function(data) {
-            $('#status').html(data['status'])
-        })
-        socket.on('totalsuccess', function(data) {
-            $('#cgames').html('<b>Total Games Successfully Converted</b>: ' + data['totalsuccess'])
-        })
-        socket.on('bcode', function(data) {
-            $('#bcode').html('<b>' + cT + ' Booking Code: </b>' + data['bcode'])
-            $('.loading-icon').addClass('hide')
-            $('#convert').attr("disabled", false);
-            $('.cbp').text("Convert Code");
-        })
+        if (betCode === "") {
+            $('#convert').prop('disabled', false);
+            $('#error').text("Error: Booking Code Cannot be empty")
+        } else {
+            const _body = {
+                code: betCode,
+                from: cF,
+                to: cT
+            };
+            const socket = io("http://127.0.0.1:5000/", { reconnection: false }, { reconnectionDelay: 100000 }, { transports: ['websocket'] }, { forceNew: false }, {
+                reconnectionDelayMax: 100000,
+            });
 
-
-
+            socket.on('connect', function() {
+                $('.loading-icon').removeClass('hide');
+                $('#convert').attr("disabled", true);
+                $('.cbp').text("Converting Code...");
+                socket.emit('my event', _body);
+            })
+            socket.on('error', function(data) {
+                $('#error').html('<b>Error:</b> ' + data['error'])
+                $('.loading-icon').addClass('hide')
+                $('#convert').attr("disabled", false);
+                $('.cbp').text("Convert Code");
+            })
+            socket.on('game', function(data) {
+                $('#games').html('<b>Total Number of Games</b>: ' + data['game'])
+            })
+            socket.on('my response', function(data) {
+                $('#status').html(" ")
+                $('#response').html('<b> Game: </b>' + data['my response'])
+            })
+            socket.on('status', function(data) {
+                $('#status').html(data['status'])
+            })
+            socket.on('totalsuccess', function(data) {
+                $('#cgames').html('<b>Total Games Successfully Converted</b>: ' + data['totalsuccess'])
+            })
+            socket.on('bcode', function(data) {
+                $('#bcode').html('<b>' + cT + ' Booking Code: </b>' + data['bcode'])
+                $('.loading-icon').addClass('hide')
+                $('#convert').attr("disabled", false);
+                $('.cbp').text("Convert Code");
+            })
+        }
+        $('#convert').prop('disabled', false);
     });
 
 
