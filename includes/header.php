@@ -59,7 +59,7 @@ require_once 'core/init.php'
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__logo">
             <a href="./index.php"><img src="img/logo.png" alt="" width="30%"> <span
-                    class="titletext">Converted<span>Code</span></span>
+                    class="titletext"><b>Converted<span>Code</span></b></span>
 
             </a>
         </div>
@@ -86,20 +86,20 @@ require_once 'core/init.php'
         <div class="header__top">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8">
+                    <!-- <div class="col-lg-8">
                         <ul class="header__top__left">
                             <li><i class="fa fa-envelope"></i><a href="mailto:convertedcode@gmail.com">
                                     Convertedcode@gmail.com </a></li>
                         </ul>
-                    </div>
-                    <div class="col-lg-4">
+                    </div> -->
+                    <!-- <div class="col-lg-4">
                         <div class="header__top__right">
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
 
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -110,6 +110,12 @@ require_once 'core/init.php'
                         <a href="./index.php"><img src="img/logo.png" alt=""><span
                                 class="titletext txt">Converted<span>Code </span></span>
                         </a>
+                        <div class="header__top__right header__links">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-10">
@@ -121,10 +127,11 @@ require_once 'core/init.php'
                                             } ?>"><a href="./index.php">Home</a></li>
                                 <li class="<?php if ($page == "betcodes") {
                                                 echo "active";
-                                            } ?>"><a href="./betcodes.php">Bet Codes</a></li>
+                                            } ?>"><a href="./punters-tips.php">Punters Tips</a></li>
                                 <li class="<?php if ($page == "matchReview") {
                                                 echo "active";
                                             } ?>"><a href="./match-review.php">Match Review</a></li>
+
                                 <li class="<?php if ($page == "about") {
                                                 echo "active";
                                             } ?>"><a href="./about.php">About Us</a></li>

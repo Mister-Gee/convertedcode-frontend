@@ -1,6 +1,6 @@
 <?php
 $page = "betcodes";
-define("TITLE", "Bet Codes | ConvertedCode");
+define("TITLE", "Punters Tips | ConvertedCode");
 include "includes/header.php"
 ?>
 <!-- Breadcrumb Section Begin -->
@@ -9,10 +9,10 @@ include "includes/header.php"
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="breadcrumb__text">
-                    <h2>Bet Codes</h2>
+                    <h2>Punters Tips</h2>
                     <div class="breadcrumb__links">
                         <a href="./index.php">Home</a>
-                        <span>Bet Codes</span>
+                        <span>Punters Tips</span>
                     </div>
                 </div>
             </div>

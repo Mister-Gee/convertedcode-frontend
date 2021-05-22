@@ -458,6 +458,12 @@ ol {
     width: 50%;
 }
 
+.header__links {
+    padding: 0px !important;
+    margin-top: -30px;
+    margin-left: 5px;
+}
+
 
 /*---------------------
   Hero

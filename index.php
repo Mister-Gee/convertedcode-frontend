@@ -22,7 +22,7 @@ include "includes/header.php";
             <div class="col-lg-6">
                 <div class="hero__text">
 
-                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                    <h2 style="font-size: 60px;">Welcome <br>To <br>Converted Codes</h2>
                     <a href="#" class="site-btn normal-btn">Subscribe Now</a>
                 </div>
             </div>
