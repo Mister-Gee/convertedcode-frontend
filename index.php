@@ -22,7 +22,8 @@ include "includes/header.php";
             <div class="col-lg-6">
                 <div class="hero__text">
 
-                    <h2 style="font-size: 60px;">Welcome <br>To <br>Converted Codes</h2>
+                    <h2 style="font-size: 60px;">Welcome <br>To <br>Converted <span style="color: #f06e0c;">Codes</span>
+                    </h2>
                     <a href="#" class="site-btn normal-btn">Subscribe Now</a>
                 </div>
             </div>
@@ -77,21 +78,165 @@ include "includes/header.php";
             <div class="col-lg-8">
                 <div class="consultation__text">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-6 smb">
                             <div class="consultation__text__item">
                                 <div class="section-title">
-                                    <span>Welcome to ConvertedCode</span>
-                                    <h2>Convert your booking codes to the booking code of your choice <b>CODE</b></h2>
+                                    <span>Available Conversion Option</span>
                                 </div>
-                                <p>Lorem ipsum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum delectus
-                                    nemo nihil, dolores natus dolorum. Voluptate, veritatis? Aperiam ullam neque
-                                    adipisci quaerat repellat cum ut? Amet impedit repellendus
-                                    nihil quaerat.</p>
+                                <div class="option-table">
+                                    <table class="table table-light table-hover  table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Option</th>
+                                                <th>Bet9ja</th>
+                                                <th>SportyBet</th>
+                                                <th>Betking</th>
+                                                <th>22Bet</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="option-row">
+                                                <td class="option-name">1X2</td>
+                                                <td>
+                                                    <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                                                </td>
+                                            </tr>
+                                            <tr class="option-row">
+                                                <td class="option-name">Double Chance</td>
+                                                <td>
+                                                    <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                                                </td>
+                                            </tr>
+                                            <tr class="option-row">
+                                                <td class="option-name">Over/Under</td>
+                                                <td>
+                                                    <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                                                </td>
+                                            </tr>
+                                            <tr class="option-row">
+                                                <td class="option-name">DNB</td>
+                                                <td>
+                                                    <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                                                </td>
+                                            </tr>
+                                            <tr class="option-row">
+                                                <td class="option-name">DNB</td>
+                                                <td>
+                                                    <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                                                </td>
+                                            </tr>
+                                            <tr class="option-row">
+                                                <td colspan="4"> <a href="./available-options.php"
+                                                        class="site-btn option-btn">View
+                                                        All</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-6 smb-3">
                             <div class="consultation__video">
-                                <a href="https://t.co/EobQYwHxWY" class=""><img src="img/affliate.jpg"></a>
+                                <div class="section-title">
+                                    <span>Available Sports & Leagues</span>
+                                    <div class="option-table smb-2">
+                                        <table class="table table-dark table-hover  table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>League/Sports</th>
+                                                    <th>Status</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="option-row">
+                                                    <td class="option-name">EPL</td>
+                                                    <td>
+                                                        <i class="fa fa-check-circle option-check"
+                                                            aria-hidden="true"></i>
+                                                    </td>
+                                                </tr>
+                                                <tr class="option-row">
+                                                    <td class="option-name">La Liga Satander</td>
+                                                    <td>
+                                                        <i class="fa fa-check-circle option-check"
+                                                            aria-hidden="true"></i>
+                                                    </td>
+                                                </tr>
+                                                <tr class="option-row">
+                                                    <td class="option-name">Seria A</td>
+                                                    <td>
+                                                        <i class="fa fa-check-circle option-check"
+                                                            aria-hidden="true"></i>
+                                                    </td>
+                                                </tr>
+                                                <tr class="option-row">
+                                                    <td class="option-name">Bundesliga</td>
+                                                    <td>
+                                                        <i class="fa fa-check-circle option-check"
+                                                            aria-hidden="true"></i>
+                                                    </td>
+                                                </tr>
+                                                <tr class="option-row">
+                                                    <td class="option-name">French Ligue 1</td>
+                                                    <td>
+                                                        <i class="fa fa-times-circle option-times"
+                                                            aria-hidden="true"></i>
+                                                    </td>
+                                                </tr>
+                                                <tr class="option-row">
+                                                    <td colspan="2"> <a href="./available-leagues.php"
+                                                            class="site-btn option-btn">View
+                                                            All</a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -138,7 +283,7 @@ include "includes/header.php";
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="chooseus__item">
                     <i class="fa fa-money"></i>
-                    <h5>Reliable Tips</h5>
+                    <h5>Bet Consultancy</h5>
                     <p>Lorem ipsum amet, consectetur adipiscing elit, sed do eiusmod tempor cididunt facilisis.</p>
                 </div>
             </div>
@@ -167,7 +312,7 @@ include "includes/header.php";
         </div>
         <div class="row">
             <?php
-            $sql = "SELECT * FROM matchreview ORDER BY id DESC LIMIT 9";
+            $sql = "SELECT * FROM matchreview ORDER BY id DESC LIMIT 6";
             $query = $db->query($sql);
             while ($matchreview = mysqli_fetch_assoc($query)) {
             ?>

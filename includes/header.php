@@ -4,7 +4,7 @@ require_once 'core/init.php'
 ?>
 
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="eng">
 
 <head>
     <meta charset="UTF-8">
@@ -112,7 +112,7 @@ require_once 'core/init.php'
                         </a>
                         <div class="header__top__right header__links">
                             <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="https://twitter.com/convertedcode_1?lang=en"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
 
                         </div>
@@ -134,7 +134,7 @@ require_once 'core/init.php'
 
                                 <li class="<?php if ($page == "about") {
                                                 echo "active";
-                                            } ?>"><a href="./about.php">About Us</a></li>
+                                            } ?>"><a href="./bet-term.php">Bet Terminologies</a></li>
                                 <li><?php
                                     if (isset($_SESSION['UserID'])) {
                                         $id = $_SESSION['UserID'];

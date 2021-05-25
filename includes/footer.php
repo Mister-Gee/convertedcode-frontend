@@ -21,7 +21,7 @@
                  <div class="col-lg-4 col-md-12">
                      <div class="footer__social">
                          <a href="#"><i class="fa fa-facebook"></i></a>
-                         <a href="#"><i class="fa fa-twitter"></i></a>
+                         <a href="https://twitter.com/convertedcode_1?lang=en"><i class="fa fa-twitter"></i></a>
                          <a href="#"><i class="fa fa-instagram"></i></a>
                      </div>
                  </div>
@@ -32,11 +32,12 @@
          <div class="row">
              <div class="col-lg-2 col-md-3 col-sm-6">
                  <div class="footer__widget">
-                     <h5>Company</h5>
+                     <h5>Other Links</h5>
                      <ul>
-                         <li><a href="#">About Us</a></li>
-                         <li><a href="#">FAQ</a></li>
-                         <li><a href="#">Match Reviews</a></li>
+                         <li><a href="./about.php">About Us</a></li>
+                         <li><a href="./faq.php">FAQ</a></li>
+                         <li><a href="./tc.php">Terms & Conditions</a></li>
+                         <li><a href="./privacy-policy.php">Privacy Policy</a></li>
                      </ul>
                  </div>
              </div>
@@ -46,9 +47,17 @@
                      <h5>Contact Us</h5>
                      <ul>
                          <li><i class="fa fa-map-marker"></i> Lagos, Nigeria </li>
-                         <li><i class="fa fa-phone"></i> 0803-xxx-xxxx</li>
                          <li><i class="fa fa-envelope"></i> ConvertedCodes@gmail.com</li>
                      </ul>
+                 </div>
+             </div>
+
+             <div class="col-lg-6 col-md-6 col-sm-6">
+                 <div class="footer__address bga">
+                     <h5>Gamble Aware</h5>
+                     <p>Make it a habit to always tap out of your betting app before you place a bet, to
+                         give you some time to think it through and help you avoid Bet Regret. </p>
+                     <img src="./img/bga.png" alt="Be Gamble aware" width="50%">
                  </div>
              </div>
 
@@ -72,8 +81,8 @@
                  <div class="col-lg-5">
                      <ul>
                          <li>All Rights Reserved</li>
-                         <li>Terms & Use</li>
-                         <li>Privacy Policy</li>
+                         <li><a href="./tc.php">Terms & Conditions</a></li>
+                         <li><a href="./privacy-policy.php">Privacy Policy</a></li>
                      </ul>
                  </div>
              </div>

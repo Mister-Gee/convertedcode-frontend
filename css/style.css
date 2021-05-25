@@ -332,6 +332,8 @@ ol {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
 }
 
 .header__menu ul li:hover a:after {
@@ -386,13 +388,14 @@ ol {
 }
 
 .header__menu ul li a {
-    font-size: 15px;
+    font-size: 13px;
     color: #ffffff;
     font-weight: 500;
     display: block;
     padding: 4px 0;
     text-transform: uppercase;
     position: relative;
+    top: 5px;
 }
 
 .header__menu ul li a:after {
@@ -478,6 +481,7 @@ ol {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header/header5.jpg") center no-repeat;
     background-size: cover;
     width: auto;
+    height: 400px;
     animation: 20s slider infinite;
     -webkit-animation: 20s slider infinite;
 }
@@ -487,31 +491,37 @@ ol {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header/header6.jpg") center no-repeat;
         background-size: cover;
         width: auto;
+        height: 400px;
     }
     34% {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header/header2.jpg") center no-repeat;
         background-size: cover;
         width: auto;
+        height: 400px;
     }
     51% {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header/header1.jpg") center no-repeat;
         background-size: cover;
         width: auto;
+        height: 400px;
     }
     68% {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header/header3.jpg") center no-repeat;
         background-size: cover;
         width: auto;
+        height: 400px;
     }
     85% {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header/header4.jpg") center no-repeat;
         background-size: cover;
         width: auto;
+        height: 400px;
     }
     100% {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header/header5.jpg") center no-repeat;
         background-size: cover;
         width: auto;
+        height: 400px;
     }
 }
 
@@ -520,7 +530,7 @@ ol {
     color: #fff;
     font-weight: 700;
     line-height: 60px;
-    margin-top: 10px;
+    margin-top: -90px;
     margin-bottom: 35px;
 }
 
@@ -731,6 +741,48 @@ ol {
 
 #status .status-fail {
     color: rgb(209, 27, 27)
+}
+
+.smb {
+    margin-top: -30px;
+}
+
+.smb-2 {
+    margin-top: 12px;
+}
+
+.smb-3 {
+    margin-top: 55px;
+}
+
+
+/*---------------------
+  Option Table
+-----------------------*/
+
+.option-btn {
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    padding: 7px 5px 5px 5px;
+    font-weight: 400px;
+}
+
+.option-row {
+    text-align: center;
+}
+
+.option-name {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.option-check {
+    color: #2f9f0c;
+}
+
+.option-times {
+    color: rgb(209, 27, 27);
 }
 
 
@@ -1077,6 +1129,14 @@ ol {
 /*---------------------
   Footer
 -----------------------*/
+
+.bga {
+    text-align: center;
+}
+
+.bga img {
+    margin-top: 15px auto;
+}
 
 .footer {
     background: #121c1d;
@@ -3215,7 +3275,9 @@ input {
         margin-right: 25px;
     }
     .header__menu ul li {
-        margin-right: 25px;
+        position: relative;
+        top: -3px;
+        margin-right: 15px;
     }
     .header__top__left li {
         margin-right: 10px;
@@ -3232,6 +3294,9 @@ input {
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header__links {
+        display: none;
+    }
     .canvas__open {
         display: block;
         font-size: 22px;
