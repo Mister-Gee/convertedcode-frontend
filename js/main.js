@@ -102,6 +102,7 @@
     let $code = $('#code');
     let $convertFrom = $('#cf');
     let $convertTo = $('#ct');
+    let $unavailable = $('#unavailable');
     $('#convert').on('click', function() {
         $('#convert').prop('disabled', true);
         const betCode = $code.val();
@@ -115,6 +116,7 @@
         $('#status').text(" ")
         $('#bcode').text(" ")
 
+
         if (betCode === "") {
             $('#convert').prop('disabled', false);
             $('#error').text("Error: Booking Code Cannot be empty")
@@ -124,7 +126,7 @@
                 from: cF,
                 to: cT
             };
-            const socket = io("http://127.0.0.1:5000/", { reconnection: false }, { reconnectionDelay: 100000 }, { transports: ['websocket'] }, { forceNew: false }, {
+            const socket = io("https://bet-converter.herokuapp.com/", { reconnection: false }, { reconnectionDelay: 100000 }, { transports: ['websocket'] }, { forceNew: false }, {
                 reconnectionDelayMax: 100000,
             });
 
@@ -158,6 +160,18 @@
                 $('.loading-icon').addClass('hide')
                 $('#convert').attr("disabled", false);
                 $('.cbp').text("Convert Code");
+            })
+            socket.on('unavailable', function(data) {
+                if (data['unavailableGamesAndOptions'].length > 0) {
+                    $unavailable.removeClass('hide')
+                    document.getElementById('unavailable-content').innerHTML = data['unavailableGamesAndOptions'].map(item =>
+                        `<div>
+                        <div class="unavailable-item">${item.Team1} vs ${item.Team2} -
+                            <strong>${item.Option}(${item.Selection}) </strong>
+                        </div>
+                    </div>`
+                    ).join('')
+                }
             })
         }
         $('#convert').prop('disabled', false);

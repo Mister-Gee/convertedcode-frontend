@@ -68,9 +68,23 @@ include "includes/header.php";
                         <div id="result">
                             <p id="error"></p>
                             <p id="games"></p>
-                            <p><span id="response"></span> <span id="status"></span></p>
+                            <p><span id="response"></span><span id="status"></span></p>
                             <p id="cgames"></p>
                             <p id="bcode"></p>
+                            <details id="unavailable" class="hide">
+                                <summary>Unavailale Games & Option</summary>
+                                <div id="unavailable-content"> </div>
+                            </details>
+                        </div>
+                        <div class="option-notice">
+                            <div class="notice-header"><strong>Disclamer:</strong> Reasons your games might not be 100%
+                                converted</div>
+                            <ol>
+                                <li>If options are not available in your destination bookies, it will be exempted from
+                                    the final accumulation.</li>
+                                <li>If teams, matches or leagues are not available in your destination bookies, it will
+                                    also be exempted from the final accumulation.</li>
+                                <ol>
                         </div>
                     </div>
                 </div>

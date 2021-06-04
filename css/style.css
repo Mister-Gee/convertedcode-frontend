@@ -755,6 +755,33 @@ ol {
     margin-top: 55px;
 }
 
+.option-notice {
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px #2f9f0c solid;
+}
+
+.option-notice .notice-header {
+    font-size: 13px;
+}
+
+.option-notice ol li {
+    font-size: 13px;
+    padding: 10px;
+}
+
+#unavailable summary {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.unavailable-item {
+    font-size: 12px;
+    color: #444444;
+    margin-top: 5px;
+}
+
 
 /*---------------------
   Option Table
