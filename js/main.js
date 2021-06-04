@@ -115,8 +115,8 @@
         $('#response').text(" ")
         $('#status').text(" ")
         $('#bcode').text(" ")
-
-
+        document.getElementById('unavailable-content').innerHTML = " "
+        $unavailable.addClass('hide')
         if (betCode === "") {
             $('#convert').prop('disabled', false);
             $('#error').text("Error: Booking Code Cannot be empty")
@@ -126,7 +126,7 @@
                 from: cF,
                 to: cT
             };
-            const socket = io("https://bet-converter.herokuapp.com/", { reconnection: false }, { reconnectionDelay: 100000 }, { transports: ['websocket'] }, { forceNew: false }, {
+            const socket = io("http://127.0.0.1:5000/", { reconnection: false }, { reconnectionDelay: 100000 }, { transports: ['websocket'] }, { forceNew: false }, {
                 reconnectionDelayMax: 100000,
             });
 
