@@ -62,8 +62,9 @@ include "includes/header.php";
                             <option value="Betking">Betking</option>
                             <option value="Sportybet">Sportybet</option>
                         </select>
-                        <button class="site-btn" name="convertcode" style="color: white;" id="convert"><i
-                                class="loading-icon fa fa-spinner fa-spin hide"></i> <span class="cbp">Convert
+                        <button class="site-btn" name="convertcode" style="color: white; background-color: grey;"
+                            id="convert" disabled><i class="loading-icon fa fa-spinner fa-spin hide"></i> <span
+                                class="cbp">Convert
                                 Code</span></button>
                         <div id="result">
                             <p id="error"></p>
@@ -277,28 +278,37 @@ include "includes/header.php";
                 <div class="chooseus__item">
                     <i class="fa fa-exchange"></i>
                     <h5>Bet Code Conversions </h5>
-                    <p>Lorem ipsum amet, consectetur adipiscing elit, sed do eiusmod tempor cididunt facilisis.</p>
+                    <p>The fastest and most reliable bet slip converter. This tool allows you to convert as many
+                        betcodes from one betting platform to another.</p>
+                    <!-- First, enter the betslip code you have, then select the platform where the code was generated
+                        from the options available. Finally select the platform you want your code to be converter to.
+                        In
+                        a few moments your codes will be converted.-->
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="chooseus__item">
                     <i class="fa fa-code"></i>
                     <h5>Free Bet Codes</h5>
-                    <p>Lorem ipsum amet, consectetur adipiscing elit, sed do eiusmod tempor cididunt facilisis.</p>
+                    <p>Find and enjoy the coolest and latest free bet codes. Just sign up to claim your reward.
+                        Offer exists for all users!</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="chooseus__item">
                     <i class="fa fa-bar-chart"></i>
                     <h5>Match Reviews</h5>
-                    <p>Lorem ipsum amet, consectetur adipiscing elit, sed do eiusmod tempor cididunt facilisis.</p>
+                    <p>We breakdown each match by considering the stats of the team's previous matches, and provide you
+                        the mostly likely outcome. This allows you to make the best possible decision before you place
+                        your bet.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="chooseus__item">
                     <i class="fa fa-money"></i>
                     <h5>Bet Consultancy</h5>
-                    <p>Lorem ipsum amet, consectetur adipiscing elit, sed do eiusmod tempor cididunt facilisis.</p>
+                    <p>Through in-depth analysis of various sport matches and several tips that can improve your betting
+                        skills, you can gain the maximum income possible through betting.</p>
                 </div>
             </div>
         </div>

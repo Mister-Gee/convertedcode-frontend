@@ -75,6 +75,10 @@ s
                             <p><span id="response"></span> <span id="status"></span></p>
                             <p id="cgames"></p>
                             <p id="bcode"></p>
+                            <details id="unavailable" class="hide">
+                                <summary>Unavailale Games & Option</summary>
+                                <div id="unavailable-content"> </div>
+                            </details>
                         </div>
                     </div>
                 </div>

@@ -46,7 +46,7 @@ include "includes/header.php"
                         <td><a
                                 href="https://twitter.com/<?php echo $code['punter']; ?>">@<?php echo $code['punter']; ?></a>
                         </td>
-                        <td><?php echo $code['betcode']; ?></td>
+                        <td><a href="<?php echo $code['betcode']; ?>"> Click here to View Code </a></td>
                         <td><?php echo $code['bookie']; ?></td>
                         <td><?php echo $code['odds']; ?></td>
                     </tr>
