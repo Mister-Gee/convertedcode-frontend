@@ -100,7 +100,7 @@ include "includes/header.php"
                             </td>
                         </tr>
                         <tr class="option-row">
-                            <td class="option-name">1X2</td>
+                            <td class="option-name">Handicap</td>
                             <td>
                                 <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
                             </td>
@@ -115,7 +115,7 @@ include "includes/header.php"
                             </td>
                         </tr>
                         <tr class="option-row">
-                            <td class="option-name">Double Chance</td>
+                            <td class="option-name">BTTS</td>
                             <td>
                                 <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
                             </td>
@@ -130,7 +130,7 @@ include "includes/header.php"
                             </td>
                         </tr>
                         <tr class="option-row">
-                            <td class="option-name">Over/Under</td>
+                            <td class="option-name">Home/Away Win Either Half</td>
                             <td>
                                 <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
                             </td>
@@ -145,7 +145,7 @@ include "includes/header.php"
                             </td>
                         </tr>
                         <tr class="option-row">
-                            <td class="option-name">DNB</td>
+                            <td class="option-name">HT/FT</td>
                             <td>
                                 <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
                             </td>
@@ -160,7 +160,7 @@ include "includes/header.php"
                             </td>
                         </tr>
                         <tr class="option-row">
-                            <td class="option-name">1X2</td>
+                            <td class="option-name">Correct Scores</td>
                             <td>
                                 <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
                             </td>
@@ -175,7 +175,7 @@ include "includes/header.php"
                             </td>
                         </tr>
                         <tr class="option-row">
-                            <td class="option-name">Double Chance</td>
+                            <td class="option-name">Highest Scoring Half</td>
                             <td>
                                 <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
                             </td>
@@ -190,7 +190,7 @@ include "includes/header.php"
                             </td>
                         </tr>
                         <tr class="option-row">
-                            <td class="option-name">Over/Under</td>
+                            <td class="option-name">Goals In Row</td>
                             <td>
                                 <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
                             </td>
@@ -205,7 +205,7 @@ include "includes/header.php"
                             </td>
                         </tr>
                         <tr class="option-row">
-                            <td class="option-name">DNB</td>
+                            <td class="option-name">Home/Away to Win to Nil</td>
                             <td>
                                 <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
                             </td>
@@ -220,7 +220,7 @@ include "includes/header.php"
                             </td>
                         </tr>
                         <tr class="option-row">
-                            <td class="option-name">1X2</td>
+                            <td class="option-name">10 & 15 Mins Draw</td>
                             <td>
                                 <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
                             </td>
@@ -235,7 +235,7 @@ include "includes/header.php"
                             </td>
                         </tr>
                         <tr class="option-row">
-                            <td class="option-name">Double Chance</td>
+                            <td class="option-name">Half Time Win & Second Half Win</td>
                             <td>
                                 <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
                             </td>
@@ -250,7 +250,7 @@ include "includes/header.php"
                             </td>
                         </tr>
                         <tr class="option-row">
-                            <td class="option-name">Over/Under</td>
+                            <td class="option-name">Home/Away Clean Sheet</td>
                             <td>
                                 <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
                             </td>
@@ -265,7 +265,7 @@ include "includes/header.php"
                             </td>
                         </tr>
                         <tr class="option-row">
-                            <td class="option-name">DNB</td>
+                            <td class="option-name">Home/Away to Score (1, 2, 3, 4, 5)</td>
                             <td>
                                 <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
                             </td>
@@ -279,7 +279,96 @@ include "includes/header.php"
                                 <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
                             </td>
                         </tr>
-
+                        <tr class="option-row">
+                            <td class="option-name">Goal In Both Halves</td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                        </tr>
+                        <tr class="option-row">
+                            <td class="option-name">Home/Away Win Both Halves</td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                        </tr>
+                        <tr class="option-row">
+                            <td class="option-name">Home/Away Win & Over (1, 2, 3, 4, 5)</td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                        </tr>
+                        <tr class="option-row">
+                            <td class="option-name">Corner in 10 Minutes</td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                        </tr>
+                        <tr class="option-row">
+                            <td class="option-name">Double Chance & Over (1, 2, 3, 4, 5)</td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                        </tr>
+                        <tr class="option-row">
+                            <td class="option-name">Double Chance or Over (1, 2, 3, 4, 5)</td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
             </diV>

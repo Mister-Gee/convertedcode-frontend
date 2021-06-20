@@ -20,9 +20,11 @@
                  </div>
                  <div class="col-lg-4 col-md-12">
                      <div class="footer__social">
-                         <a href="#"><i class="fa fa-facebook"></i></a>
-                         <a href="https://twitter.com/convertedcode_1?lang=en"><i class="fa fa-twitter"></i></a>
-                         <a href="#"><i class="fa fa-instagram"></i></a>
+                         <a href="https://t.me/joinchat/RVZGQv7w4NAPRGWj" target="_blank"><i
+                                 class="fa fa-telegram"></i></a>
+                         <a href="https://twitter.com/convertedcode_1?lang=en" target="_blank"><i
+                                 class="fa fa-twitter"></i></a>
+                         <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
                      </div>
                  </div>
              </div>
@@ -47,7 +49,7 @@
                      <h5>Contact Us</h5>
                      <ul>
                          <li><i class="fa fa-map-marker"></i> Lagos, Nigeria </li>
-                         <li><i class="fa fa-envelope"></i> ConvertedCodes@gmail.com</li>
+                         <li><i class="fa fa-envelope"></i> ConvertedCode@gmail.com</li>
                      </ul>
                  </div>
              </div>

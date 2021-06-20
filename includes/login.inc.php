@@ -33,6 +33,7 @@ if (isset($_POST['signin-submit'])) {
                     $_SESSION['Email'] = $row['email'];
                     $_SESSION['pNum'] = $row['phone'];
                     $_SESSION['Gender'] = $row['gender'];
+                    $_SESSION['isAdmin'] = $row['isAdmin'];
 
                     header("Location: ../dashboard.php?login=success");
                     exit();

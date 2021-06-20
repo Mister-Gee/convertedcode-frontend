@@ -44,7 +44,7 @@ include "includes/header.php"
                             <li> <?php echo $matchreview["author"]; ?></li>
                             <li><?php echo $matchreview["date_time"]; ?></li>
                             <?php
-                                if (isset($_SESSION['UserID']) && $_SESSION['UserID'] < 5) {
+                                if (isset($_SESSION['UserID']) && $_SESSION['isAdmin'] == 'true') {
 
                                 ?>
                             <li>

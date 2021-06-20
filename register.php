@@ -82,9 +82,9 @@ include "includes/header.php"
                     <div class="input-group">
                         <input class="input--style-3" type="email" placeholder="Email" name="email">
                     </div>
-                    <div class="input-group">
+                    <!-- <div class="input-group">
                         <input class="input--style-3" type="tel" placeholder="Phone" name="phone">
-                    </div>
+                    </div> -->
                     <div class="input-group">
                         <input class="input--style-3" type="password" placeholder="Password" name="pwd">
                     </div>

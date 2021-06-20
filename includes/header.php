@@ -8,7 +8,8 @@ require_once 'core/init.php'
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Bet Booking Code Converter">
+    <meta name="description" content="Convert Bet Booking Codes">
+    <meta name="author" content="ConvertedCode">
     <meta name="keywords" content="Bet, Tips, Odds, Convert, Converter">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -46,6 +47,8 @@ require_once 'core/init.php'
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
     <link rel="manifest" href="img/favicon/manifest.json">
     <link rel="icon" type="image/ico" href="img/favicon/favicon.ico">
+    <script data-ad-client="ca-pub-3244556604478846" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
 <body>
@@ -65,7 +68,7 @@ require_once 'core/init.php'
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__btn">
-            <a href="./contact.php" class="site-btn">Contact Us</a>
+            <a href="#" class="site-btn">Beta Version</a>
         </div>
         <ul class="offcanvas__widget">
             <li><i class="fa fa-envelope"></i><a href="mailto:convertedcode@gmail.com"> Convertedcode@gmail.com </a>
@@ -161,7 +164,7 @@ require_once 'core/init.php'
                             </ul>
                         </nav>
                         <div class="header__btn">
-                            <a href="./contact.php" class="site-btn">Contact Us</a>
+                            <a href="#" class="site-btn">Beta Version</a>
                         </div>
                     </div>
                 </div>

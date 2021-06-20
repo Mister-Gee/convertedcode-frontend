@@ -24,36 +24,69 @@ include "includes/header.php"
 <section class="doctor spad">
     <div class="container">
         <div class="doctor__item">
-
             <h2>Available Sport & Leagues</h2>
             <diV>
                 <table class="table table-dark table-hover  table-striped mt-3">
                     <thead>
-                        <tr class="option-row">
-                            <th>League/Tournament</th>
+                        <tr>
+                            <th>Sports</th>
                             <th>Status</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="option-row">
-                            <td class="option-name">EPL</td>
+                            <td class="option-name">Football</td>
                             <td>
                                 <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
                             </td>
                         </tr>
                         <tr class="option-row">
-                            <td class="option-name">La Liga Satander</td>
+                            <td class="option-name">#EURO2020</td>
                             <td>
                                 <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
                             </td>
                         </tr>
                         <tr class="option-row">
-                            <td class="option-name">Seria A</td>
+                            <td class="option-name">Copa America</td>
                             <td>
                                 <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
                             </td>
                         </tr>
                         <tr class="option-row">
+                            <td class="option-name">EliteSerien(Norway)</td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                        </tr>
+                        <tr class="option-row">
+                            <td class="option-name">Allsvenskan(Sweden)</td>
+                            <td>
+                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
+                            </td>
+                        </tr>
+                        <tr class="option-row">
+                            <td class="option-name" colspan="2"></td>
+                        </tr>
+                        <tr class="option-row">
+                            <td class="option-name">BasketBall</td>
+                            <td>
+                                Coming Soon
+                            </td>
+                        </tr>
+                        <tr class="option-row">
+                            <td class="option-name">Hockey</td>
+                            <td>
+                                Coming Soon
+                            </td>
+                        </tr>
+
+                        <tr class="option-row">
+                            <td class="option-name">Tennis</td>
+                            <td>
+                                Coming Soon
+                            </td>
+                        </tr>
+                        <!-- <tr class="option-row">
                             <td class="option-name">Bundesliga</td>
                             <td>
                                 <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
@@ -94,37 +127,7 @@ include "includes/header.php"
                             <td>
                                 <i class="fa fa-times-circle option-times" aria-hidden="true"></i>
                             </td>
-                        </tr>
-                        <tr class="option-row">
-                            <td class="option-name">EPL</td>
-                            <td>
-                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
-                            </td>
-                        </tr>
-                        <tr class="option-row">
-                            <td class="option-name">La Liga Satander</td>
-                            <td>
-                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
-                            </td>
-                        </tr>
-                        <tr class="option-row">
-                            <td class="option-name">Seria A</td>
-                            <td>
-                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
-                            </td>
-                        </tr>
-                        <tr class="option-row">
-                            <td class="option-name">Bundesliga</td>
-                            <td>
-                                <i class="fa fa-check-circle option-check" aria-hidden="true"></i>
-                            </td>
-                        </tr>
-                        <tr class="option-row">
-                            <td class="option-name">French Ligue 1</td>
-                            <td>
-                                <i class="fa fa-times-circle option-times" aria-hidden="true"></i>
-                            </td>
-                        </tr>
+                        </tr> -->
                     </tbody>
                 </table>
             </diV>
